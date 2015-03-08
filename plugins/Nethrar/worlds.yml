@@ -1,0 +1,24 @@
+world:
+        environment: normal
+        destination: world_nether
+        scale: 128
+world_nether:
+        environment: nether
+        destination: world
+        height: 128
+        heightScaleMode: scale
+        peaceful: false
+        respawnTo: world
+        scale: 16
+fallen_city:
+        environment: normal
+        destination: world
+        scale: 1
+        respawnTo: world
+        peaceful: false
+        worldBlock: 57
+        worldGenerator:
+                name: CityWorld
+                args: Destroyed
+
+
