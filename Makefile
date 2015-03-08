@@ -5,3 +5,6 @@ dynmap:
 	scripts/dynmap.sh
 mcmmo:
 	scripts/mcmmo.sh
+
+start:
+	scripts/startup.sh
