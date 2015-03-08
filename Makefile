@@ -1,3 +1,4 @@
+all: spigot dynmap mcmmo
 spigot:
 	scripts/spigot.sh
 dynmap:
