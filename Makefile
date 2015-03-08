@@ -1,11 +1,11 @@
-all: spigot dynmap mcmmo
+all: spigot dynmap mcmmo nethrar
 spigot:
 	scripts/spigot.sh
 dynmap:
 	scripts/dynmap.sh
 mcmmo:
 	scripts/mcmmo.sh
-mcmmo:
+nethrar:
 	scripts/nethrar.sh
 
 start:
