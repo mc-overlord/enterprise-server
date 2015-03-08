@@ -1,4 +1,4 @@
-all: spigot dynmap mcmmo nethrar
+all: spigot dynmap mcmmo nethrar cityworld
 spigot:
 	scripts/spigot.sh
 dynmap:
@@ -7,6 +7,8 @@ mcmmo:
 	scripts/mcmmo.sh
 nethrar:
 	scripts/nethrar.sh
+cityworld:
+	scripts/cityworld.sh
 
 start:
 	scripts/startup.sh
