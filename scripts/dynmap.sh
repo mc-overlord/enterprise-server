@@ -1,3 +1,3 @@
 #!/bin/sh
 #http://www.spigotmc.org/resources/dynmap.274/
-curl http://dev.bukkit.org/media/files/853/318/dynmap-2.1.jar > plugins/dynmap.jar
+curl -L http://www.spigotmc.org/resources/dynmap.274/download?version=10052 > plugins/dynmap.jar
