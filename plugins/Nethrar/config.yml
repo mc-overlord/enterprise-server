@@ -1,0 +1,6 @@
+usePermissions: false
+riderlessVehicles: false
+listen:
+  respawn: true
+forceLoadRadius: 1
+debugLevel: 1
