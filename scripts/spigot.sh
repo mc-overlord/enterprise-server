@@ -11,4 +11,3 @@ wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifac
 java -jar BuildTools.jar
 cp "$tmpdir"/spigot-*.jar "$olddir"/spigot.jar
 cd "$olddir"
-rm -rf $tmpdir
