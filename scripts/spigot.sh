@@ -1,9 +1,9 @@
 #!/bin/sh
 olddir="$(pwd)"
 tmpdir="TMP"
-if !$(which java); then
-  echo please install java
-fi
+
+type java >/dev/null 2>&1 || { echo >&2 "I require java but it's not installed.  Aborting."; exit 1; }
+type curl >/dev/null 2>&1 || { echo >&2 "I require curl but it's not installed.  Aborting."; exit 1; }
 
 mkdir "$tmpdir"
 cd "$tmpdir"
