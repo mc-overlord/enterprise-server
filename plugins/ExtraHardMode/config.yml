@@ -62,8 +62,8 @@ ExtraHardMode:
         - EMERALD_ORE
         - DIAMOND_ORE
         - REDSTONE_ORE
-        - GOLD_ORE
         - GLOWING_REDSTONE_ORE
+        - GOLD_ORE
         - IRON_ORE
         # Here you can specify custom stone blocks or change what stone softens into.
         Stone Blocks (Stone@data-Cobble@data):
@@ -332,8 +332,8 @@ ExtraHardMode:
     Turn Mycel/Grass To Dirt: true
     Enabled Blocks:
     - GRASS
-    - DIRT
     - MOSSY_COBBLESTONE
+    - DIRT
     - COBBLESTONE
     - MYCEL
     - DOUBLE_STEP@3
