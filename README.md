@@ -1,6 +1,8 @@
 TODO:
   minecraft log to systemd
-  startup-script
-  more plugins!
-    safeCreeper
-    Nethrar (or similar)
+  configure groupPermissions plugin
+  more plugins:
+    ships
+
+BUGS:
+  mcmmo broken in extra worlds?
