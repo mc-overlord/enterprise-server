@@ -1,4 +1,4 @@
-all: spigot dynmap mcmmo nethrar cityworld extraHardMode permissionsEx noExplosions
+all: spigot dynmap mcmmo nethrar cityworld extraHardMode permissionsEx noExplosions creeperHeal
 spigot:
 	scripts/spigot.sh
 dynmap:
@@ -15,6 +15,8 @@ permissionsEx:
 	scripts/permissionsEx.sh
 noExplosions:
 	scripts/noExplosions.sh
+creeperHeal:
+	scripts/CreeperHeal.sh
 
 start:
 	scripts/startup.sh
